@@ -1,0 +1,36 @@
+---
+import { author } from '@/utils/author';
+interface Props { title: string; url: URL }
+const { title, url } = Astro.props;
+const u = encodeURIComponent(url.toString());
+const t = encodeURIComponent(`${title} by ${author.xHandle}`);
+const links = [
+  { name: 'X', href: `https://x.com/intent/post?text=${t}&url=${u}` },
+  { name: 'Bluesky', href: `https://bsky.app/intent/compose?text=${encodeURIComponent(title)}%20${u}` },
+  { name: 'LinkedIn', href: `https://www.linkedin.com/sharing/share-offsite/?url=${u}` },
+  { name: 'Hacker News', href: `https://news.ycombinator.com/submitlink?u=${u}&t=${encodeURIComponent(title)}` },
+  { name: 'Email', href: `mailto:?subject=${encodeURIComponent(title)}&body=${u}` },
+];
+---
+<div class="share" data-url={url.toString()}>
+  <span class="share-label">Share</span>
+  {links.map((l) => (
+    <a href={l.href} target="_blank" rel="noopener noreferrer">{l.name}</a>
+  ))}
+  <button type="button" class="share-copy">Copy link</button>
+</div>
+<script>
+  document.querySelectorAll<HTMLElement>('.share').forEach((box) => {
+    const btn = box.querySelector<HTMLButtonElement>('.share-copy');
+    const url = box.dataset.url ?? location.href;
+    btn?.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        btn.textContent = 'Copied';
+        setTimeout(() => (btn.textContent = 'Copy link'), 1500);
+      } catch {
+        btn.textContent = url;
+      }
+    });
+  });
+</script>

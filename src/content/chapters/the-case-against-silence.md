@@ -5,11 +5,11 @@ order: 4
 description: "The strongest version of the argument that publishing about AI risk is what lets people reduce it, and why the hyperstition worry, taken seriously, still does not recommend silence."
 ---
 
-The case for worry ends with an implied prescription. Write less, write vaguer, keep the worst scenarios out of the corpus. I think the prescription does not follow. The mechanism behind the risk of doom-publishing is also the reason it is necessary.
+[The case for worry](../the-case-for-worry/) ends with an implied prescription. Write less, write vaguer, keep the worst scenarios out of the corpus. I think the prescription does not follow. The mechanism behind the risk of doom-publishing is also the reason it is necessary.
 
 ## Merton's other prophecy
 
-Recall the suicidal prophecy, the forecast that prevents itself by being believed. Y2K is the cleanest modern example. For years the public heard that computer systems would fail at the turn of the millennium. Enormous effort went into fixing them. Very little failed. Many people concluded it had all been hysteria. The warning had worked.
+Recall the [suicidal prophecy](../what-is-hyperstition/#the-older-cousins), the forecast that prevents itself by being believed. [Y2K](https://en.wikipedia.org/wiki/Year_2000_problem) is the cleanest modern example. For years the public heard that computer systems would fail at the turn of the millennium. Enormous effort went into fixing them. Very little failed. Many people concluded it had all been hysteria. The warning had worked.
 
 AI doom writing is at least as plausibly a suicidal prophecy as a self-fulfilling one. Its purpose is to change what humans do, what gets built and funded and regulated and evaluated, before the outcome is decided. Its track record so far is a field of alignment research and a set of institutions that did not exist before people wrote alarming things. If the alarm stops, that work does not speed up.
 
@@ -17,7 +17,7 @@ AI doom writing is at least as plausibly a suicidal prophecy as a self-fulfillin
 
 The hyperstition worry treats pretraining as destiny. It is raw material that developers then shape, on purpose and with feedback. A model that has read every doom scenario can also be trained, evaluated, and corrected against exactly those scenarios, and the reason it can is that someone wrote them down. You cannot test for a failure mode that exists only as a vague feeling. A detailed published scenario can become an evaluation the day after it appears.
 
-This is the ordinary logic of security research, and that field spent decades arguing about it. The position that won was responsible disclosure, because the attacker will find the hole anyway and the defender can only patch what is known. The doom literature is a disclosure program for a class of vulnerabilities in systems that do not fully exist yet. Suppressing it protects no one.
+This is the ordinary logic of security research, and that field spent decades arguing about it. The position that won was [responsible disclosure](https://en.wikipedia.org/wiki/Full_disclosure_(computer_security)), because the attacker will find the hole anyway and the defender can only patch what is known. The doom literature is a disclosure program for a class of vulnerabilities in systems that do not fully exist yet. Suppressing it protects no one.
 
 ## Silence is also a text
 

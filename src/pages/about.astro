@@ -1,5 +1,6 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import { author } from '@/utils/author';
 ---
 <Layout title="About" description="What this site is, who it is for, and how it was made.">
   <h1>About</h1>
@@ -19,6 +20,13 @@ import Layout from '@/layouts/Layout.astro';
     running. The model was asked to help describe a feedback loop it is itself inside. Where
     the text makes claims about how models are trained or how they behave, it cites public research.
     Where it guesses, it says so.
+  </p>
+  <h2>Who wrote it</h2>
+  <p>
+    <a href={author.site}>Jeff Kazzee</a>. I run <a href={author.company}>{author.companyName}</a> and write about AI on
+    <a href={author.substack}>Substack</a>. The quickest way to argue with me is on <a href={author.x}>X</a>. The
+    source for this site is on <a href={author.github}>GitHub</a>, and pull requests that fix a bad citation are
+    welcome.
   </p>
   <h2>Corrections</h2>
   <p>

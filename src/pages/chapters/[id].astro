@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Layout from '@/layouts/Layout.astro';
+import Share from '@/components/Share.astro';
 import { href } from '@/utils/url';
 
 export async function getStaticPaths() {
@@ -19,6 +20,7 @@ const { Content } = await render(chapter);
   <h1>{chapter.data.title}</h1>
   {chapter.data.subtitle && <p class="subtitle">{chapter.data.subtitle}</p>}
   <Content />
+  <Share title={`${chapter.data.title} · The Hyperstition Problem`} url={Astro.url} />
   <nav class="pager" aria-label="Chapter navigation">
     <div>
       {prev && (

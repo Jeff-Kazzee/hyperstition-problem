@@ -5,7 +5,7 @@ order: 1
 description: "Where the idea came from, its older cousins in sociology, and the three things that separate a hyperstition from an ordinary prediction."
 ---
 
-The word comes from the Cybernetic Culture Research Unit, a small and short-lived group at the University of Warwick in the mid-1990s. The philosopher Nick Land was its best-known member. Hyperstition is a blend of hype and superstition, and the CCRU's one-line gloss is still the standard definition. A hyperstition is a fiction that makes itself real.
+The word comes from the [Cybernetic Culture Research Unit](https://en.wikipedia.org/wiki/Cybernetic_Culture_Research_Unit), a small and short-lived group at the University of Warwick in the mid-1990s. The philosopher [Nick Land](https://en.wikipedia.org/wiki/Nick_Land) was its best-known member. Hyperstition is a blend of hype and superstition, and the CCRU's one-line gloss is still the standard definition. A hyperstition is a fiction that makes itself real.
 
 The idea is easy to say and hard to hold onto. A prediction describes the world, and we judge it by whether things turn out that way. A hyperstition does not wait to be judged. It circulates, it changes how the people who hear it behave, and their new behavior produces the thing it described. The fiction helps build the future it pictures.
 
@@ -13,7 +13,7 @@ The idea is easy to say and hard to hold onto. A prediction describes the world,
 
 The CCRU wrote about this in a deliberately occult register. But sociologists had described the same mechanism, in plain language, decades earlier.
 
-In 1928 the sociologist W. I. Thomas wrote a line that now carries his name. If people define situations as real, they are real in their consequences. Robert K. Merton built on it in 1948 with the essay "The Self-Fulfilling Prophecy." His main example was a bank run. Someone spreads a rumor that a solvent bank is about to fail. Depositors, acting sensibly on a false belief, pull their money out. The withdrawals finish it off. The rumor was wrong when it started and right when it finished, and the rumor did the work.
+In 1928 the sociologist W. I. Thomas wrote a line that now [carries his name](https://en.wikipedia.org/wiki/Thomas_theorem). If people define situations as real, they are real in their consequences. Robert K. Merton built on it in 1948 with the essay ["The Self-Fulfilling Prophecy."](https://www.jstor.org/stable/4609267) His main example was a bank run. Someone spreads a rumor that a solvent bank is about to fail. Depositors, acting sensibly on a false belief, pull their money out. The withdrawals finish it off. The rumor was wrong when it started and right when it finished, and the rumor did the work.
 
 Merton also named the opposite case. He called it the suicidal prophecy, a prediction that causes people to act in ways that prevent it. Forecast a famine and the granaries get filled. The prediction fails because people took it seriously. The AI doom literature could be either kind of prophecy, and I think it is probably both at once.
 
@@ -35,9 +35,9 @@ Money is the canonical case. A banknote is worth something because everyone beli
 
 Market panics and bubbles are Merton's bank run at scale. This is why financial regulators worry about what gets said as much as what gets done.
 
-Roko's basilisk, a 2010 thought experiment from the LessWrong forum, is the example most people associate with the word. It became notorious less for the argument than for the idea that reading it might be dangerous, that the thought experiment could pull you into its own outcome. Whatever you think of the argument, that structure, a description that tries to become an instruction, is the hyperstitional structure exactly.
+[Roko's basilisk](https://www.lesswrong.com/w/rokos-basilisk), a 2010 thought experiment from the LessWrong forum, is the example most people associate with the word. It became notorious less for the argument than for the idea that reading it might be dangerous, that the thought experiment could pull you into its own outcome. Whatever you think of the argument, that structure, a description that tries to become an instruction, is the hyperstitional structure exactly.
 
-Genre fiction gets adopted as a blueprint by the people who build the future it describes. John Underkoffler designed the gesture interfaces in the film Minority Report as its science advisor, then founded a company to build the real thing. The story came first and the product followed it.
+Genre fiction gets adopted as a blueprint by the people who build the future it describes. John Underkoffler designed the gesture interfaces in the film [Minority Report](https://en.wikipedia.org/wiki/Minority_Report_(film)) as its science advisor, then founded a company to build the real thing. The story came first and the product followed it.
 
 ## Taking the idea somewhere new
 

@@ -194,3 +194,25 @@ a:hover { text-decoration-thickness: 2px; }
   .pager { grid-template-columns: 1fr; }
   .pager .next { text-align: left; }
 }
+
+/* Byline */
+.byline { font-family: var(--sans); font-size: 0.85rem; color: var(--ink-soft); margin: -1.8rem 0 2.5rem; }
+
+/* Figure */
+.loop { margin: 2rem 0; }
+.loop svg { width: 100%; height: auto; display: block; }
+.loop figcaption { font-family: var(--sans); font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.6rem; line-height: 1.45; }
+
+/* Share */
+.share {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.9rem;
+  font-family: var(--sans); font-size: 0.82rem;
+  border-top: 1px solid var(--rule); padding-top: 1.2rem; margin-top: 2.5rem;
+}
+.share-label { color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; }
+.share a, .share-copy { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 1px; }
+.share a:hover, .share-copy:hover { color: var(--accent); border-color: var(--accent); }
+.share-copy { background: none; border: 0; border-bottom: 1px solid var(--rule); font: inherit; padding: 0 0 1px; cursor: pointer; }
+
+/* Author links in footer */
+.author-links a { color: var(--ink-soft); }

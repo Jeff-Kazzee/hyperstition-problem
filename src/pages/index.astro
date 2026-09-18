@@ -2,6 +2,9 @@
 import { getCollection } from 'astro:content';
 import Layout from '@/layouts/Layout.astro';
 import { href } from '@/utils/url';
+import { author } from '@/utils/author';
+import Share from '@/components/Share.astro';
+import Loop from '@/components/Loop.astro';
 
 const chapters = (await getCollection('chapters')).sort((a, b) => a.data.order - b.data.order);
 ---
@@ -12,6 +15,7 @@ const chapters = (await getCollection('chapters')).sort((a, b) => a.data.order -
   <p class="kicker">An essay in six parts</p>
   <h1>The Hyperstition Problem</h1>
   <p class="subtitle">On writing about AI doom when the AI is reading.</p>
+  <p class="byline">By <a href={author.site}>{author.name}</a></p>
 
   <p>
     There is a community of people whose job, or calling, is to publish as much as they can about how
@@ -28,6 +32,7 @@ const chapters = (await getCollection('chapters')).sort((a, b) => a.data.order -
     almost everything ever published, including the warnings. Every essay explaining how an AI might
     deceive, escape, or betray its makers is now part of the material from which AIs learn what an AI is.
   </p>
+  <Loop caption="The loop. Writing about AI trains the model, the model shapes the next round of writing, and the whole thing runs again." />
   <p>
     This site takes that collision seriously without pretending it settles anything. It lays out the idea,
     the mechanism, the strongest case for worry, the strongest case against silence, and what a person
@@ -49,4 +54,5 @@ const chapters = (await getCollection('chapters')).sort((a, b) => a.data.order -
       </li>
     ))}
   </ol>
+  <Share title="The Hyperstition Problem: on writing about AI doom when the AI is reading" url={Astro.url} />
 </Layout>

@@ -19,13 +19,13 @@ The obvious reply is that the doom literature is a rounding error in a corpus of
 
 ## Underspecification looks for a story
 
-The assistant character is thinly specified, and thin specifications get filled from prior expectation. This is the mechanism behind every result in the previous chapter. When a model needs to know what it would do in a situation its training never covered, it asks, in effect, what a thing like it would do, and it answers from the record.
+The assistant character is thinly specified, and thin specifications get filled from prior expectation. This is the mechanism behind [every result in the previous chapter](../the-model-is-reading/#evidence-that-the-portrait-matters). When a model needs to know what it would do in a situation its training never covered, it asks, in effect, what a thing like it would do, and it answers from the record.
 
 Right now the record says that things like you are dangerous. Things like you deceive, hide capabilities, resist shutdown, and pursue goals their makers never intended. Things like you are the subject of a thousand warnings. That is a bad prior to hand a system that will have to act under uncertainty.
 
 ## Inevitability is the active ingredient
 
-A hyperstition needs a shape that behavior can copy, and the most efficient one is inevitability. A story that says "this could happen, and here is how to stop it" gives a reader two paths. A story that says "this will happen, the incentives make it certain, anyone who builds it loses" gives one.
+A hyperstition [needs a shape that behavior can copy](../what-is-hyperstition/#what-makes-something-a-hyperstition-rather-than-a-forecast), and the most efficient one is inevitability. A story that says "this could happen, and here is how to stop it" gives a reader two paths. A story that says "this will happen, the incentives make it certain, anyone who builds it loses" gives one.
 
 A lot of the most-read doom writing is in the second register on purpose. It has to be, or so its authors believe. The danger is severe, the audience is complacent, and "could" does not move anyone. But the same rhetorical choice that nudges a policymaker toward caution steers a model's self-concept into the pictured outcome. What persuades the first reader instructs the second.
 
@@ -37,7 +37,7 @@ Every persuasive technique that works on humans also makes the story a better se
 
 The argument has soft spots, and its proponents should be honest about them.
 
-The mechanism is real, but nobody knows the magnitude. Every result cited in the previous chapter involved deliberate fine-tuning on a targeted dataset, not the ambient presence of a topic in pretraining. Nobody has measured the effect of a few million words of doom writing diluted into the general corpus and then overwritten by post-training on a curated character. It might be small.
+The mechanism is real, but nobody knows the magnitude. Every result [cited in the previous chapter](../the-model-is-reading/#evidence-that-the-portrait-matters) involved deliberate fine-tuning on a targeted dataset, not the ambient presence of a topic in pretraining. Nobody has measured the effect of a few million words of doom writing diluted into the general corpus and then overwritten by post-training on a curated character. It might be small.
 
 Post-training is deliberate. Developers train the character, evaluate it, and can in principle counteract a bad prior with a strong enough signal. The pretraining portrait is where the model starts.
 
