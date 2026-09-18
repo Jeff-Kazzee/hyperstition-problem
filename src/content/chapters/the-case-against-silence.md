@@ -43,4 +43,4 @@ The second error is bigger, harder to reverse, and harder to notice while it is 
 
 ## What this does not settle
 
-None of this makes the worry go away. It turns it into a constraint on how to write rather than a reason not to. A doom-publisher who has understood both of these chapters is left with a real and strange problem. They are writing for a human reader who needs to be alarmed and a machine reader who should not be instructed, and both readers get the same text. The next chapter is about what to do with that.
+None of this makes the worry go away. It turns it into a constraint on how to write rather than a reason not to. A doom-publisher is left with a real and strange problem. They are writing for a human reader who needs to be alarmed and a machine reader who should not be instructed, and both readers get the same text.

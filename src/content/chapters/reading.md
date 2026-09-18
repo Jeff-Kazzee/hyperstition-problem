@@ -51,4 +51,4 @@ The security community's long argument over whether to publish vulnerabilities i
 
 ## Arguing with this essay
 
-Everything here is contestable, and most of it is empirically open. If you think the salience argument in chapter 3 is wrong, or the asymmetry argument in chapter 4 is wrong, or the advice in chapter 5 is useless or not enough, write it down and publish it. It would be strange for this essay to ask anything else.
+Everything here is contestable, and most of it is empirically open. If you think the salience argument in chapter 3 is wrong, or the asymmetry argument in chapter 4 is wrong, or the advice in chapter 5 is useless or not enough, write it down and publish it.

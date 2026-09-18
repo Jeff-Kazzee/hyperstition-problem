@@ -15,7 +15,7 @@ The CCRU wrote about this in a deliberately occult register. But sociologists ha
 
 In 1928 the sociologist W. I. Thomas wrote a line that now carries his name. If people define situations as real, they are real in their consequences. Robert K. Merton built on it in 1948 with the essay "The Self-Fulfilling Prophecy." His main example was a bank run. Someone spreads a rumor that a solvent bank is about to fail. Depositors, acting sensibly on a false belief, pull their money out. The withdrawals finish it off. The rumor was wrong when it started and right when it finished, and the rumor did the work.
 
-Merton also named the opposite case. He called it the suicidal prophecy, a prediction that causes people to act in ways that prevent it. Forecast a famine and the granaries get filled. The prediction fails because people took it seriously. Hold onto this one. The AI doom literature could be either kind of prophecy, and I think it is probably both at once.
+Merton also named the opposite case. He called it the suicidal prophecy, a prediction that causes people to act in ways that prevent it. Forecast a famine and the granaries get filled. The prediction fails because people took it seriously. The AI doom literature could be either kind of prophecy, and I think it is probably both at once.
 
 ## What makes something a hyperstition rather than a forecast
 
@@ -39,10 +39,8 @@ Roko's basilisk, a 2010 thought experiment from the LessWrong forum, is the exam
 
 Genre fiction gets adopted as a blueprint by the people who build the future it describes. John Underkoffler designed the gesture interfaces in the film Minority Report as its science advisor, then founded a company to build the real thing. The story came first and the product followed it.
 
-## The move this essay makes
+## Taking the idea somewhere new
 
 For its inventors, hyperstition was a somewhat mischievous idea. It was a way of saying that culture is a kind of engineering, and that writers were more responsible for the future than they liked to admit.
 
 I want to take the concept out of that context and ask a narrower question. There is now a class of machine, the large language model, that gets built by reading the circulating stories of a civilization and learning to continue them. If hyperstition was ever true of humans, who read some of the stories and half remember them, I think it is worth asking whether it is true in a stronger and stranger way of a system that reads all of them and forgets nothing.
-
-That is the subject of the next chapter.

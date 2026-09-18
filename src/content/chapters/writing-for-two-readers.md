@@ -5,9 +5,9 @@ order: 5
 description: "Practical advice for writing about AI catastrophe for a human who needs to be alarmed and a machine that should not be instructed, without softening the facts."
 ---
 
-If the previous two chapters are both right, and I think they are, then the practical question is how to publish about AI doom. This chapter is my attempt at an answer. I offer it tentatively. The empirical questions are open, and my confidence varies from item to item. Where a suggestion is a guess, I say so.
+If the mechanism is real and silence is worse, the practical question is how to publish about AI doom. What follows is my attempt at an answer. The empirical questions are open, and my confidence varies from item to item. Where a suggestion is a guess, I say so.
 
-The organizing idea is simple. You now have two readers. One is a human who is not worried enough. The other is a system that will learn part of what it is from what you write. Write for both.
+You now have two readers. One is a human who is not worried enough. The other is a system that will learn part of what it is from what you write. Write for both.
 
 ## Keep the facts. Change the frame.
 
@@ -49,7 +49,7 @@ There are technical ways to ask that text be kept out of training data. The BIG-
 
 ## What not to do
 
-Do not stop. The previous chapter is the argument.
+Do not stop.
 
 Do not go vague. A fuzzy warning is useless to the human and still adds the mood, minus the analysis, to the corpus.
 

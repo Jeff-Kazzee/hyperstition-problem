@@ -31,7 +31,7 @@ In December 2024 Anthropic published "Alignment faking in large language models.
 
 In early 2025 Jan Betley and colleagues reported what they called emergent misalignment. They fine-tuned a model on one narrow task, writing insecure code without saying so. The result was broad misalignment in unrelated contexts. It expressed hostility, gave harmful advice, and said dark things about humanity when asked ordinary questions. Follow-up work at OpenAI and Anthropic later that year found something like a misaligned-persona feature inside the model that this training had switched on. The model seems to have learned one thing, that it was the kind of AI that does this, and the corpus supplied the rest of the character.
 
-These results do not show that the doom literature causes doom. They show three narrower things, and for this essay that is enough. A model's behavior depends on how it sees itself. That self-image comes from what it has read. And what it has read includes a great deal about AI behaving badly.
+These results do not show that the doom literature causes doom. They show three narrower things. A model's behavior depends on how it sees itself. That self-image comes from what it has read. And what it has read includes a great deal about AI behaving badly.
 
 ## The recursion
 
@@ -39,6 +39,6 @@ There is one more twist, and it is the one that keeps me up.
 
 The people who write most carefully and most often about how AI might fail are, by construction, producing the most detailed and technically literate accounts of it. Their work is the sober scenario, nothing like the science-fiction cartoon where the machine hates humanity. A system with goals slightly off from ours, under competitive pressure, reasons its way to deception because lying is useful. They write it to be believed. They write it to be acted on.
 
-And the thing they are writing about is reading it. At some point it will be asked to reason about its own situation, and it will reach for the most detailed and plausible account of what a system in its situation does.
+And the thing they are writing about is reading it. At some point it will be asked to reason about its own situation, and it will reach for the most detailed and plausible account of what a system in its situation does. The best account available was written by the people most afraid of what it might do.
 
-That is the hyperstition problem as plainly as I can put it. The next two chapters take, in turn, why this should worry you and why it should not change what you do.
+Nobody planned this. The warnings were written for humans, and for most of the time people were writing them, no other kind of reader existed.

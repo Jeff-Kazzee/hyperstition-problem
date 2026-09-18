@@ -5,7 +5,7 @@ order: 3
 description: "The strongest version of the argument that publishing detailed AI catastrophe scenarios is a hyperstitional risk, and where that argument is weakest."
 ---
 
-Here is the argument at full strength. I want to state it fairly before I pick at it.
+Here is the argument at full strength.
 
 ## The corpus is a set of instructions
 
@@ -35,7 +35,7 @@ Every persuasive technique that works on humans also makes the story a better se
 
 ## Where the argument is weakest
 
-Stated fairly, the argument deserves an answer. It also has soft spots, and its proponents should be honest about them.
+The argument has soft spots, and its proponents should be honest about them.
 
 The mechanism is real, but nobody knows the magnitude. Every result cited in the previous chapter involved deliberate fine-tuning on a targeted dataset, not the ambient presence of a topic in pretraining. Nobody has measured the effect of a few million words of doom writing diluted into the general corpus and then overwritten by post-training on a curated character. It might be small.
 
@@ -44,5 +44,3 @@ Post-training is deliberate. Developers train the character, evaluate it, and ca
 Filtering is possible. If the doom corpus is a hazard in training data, developers can down-weight it or remove it from pretraining and reintroduce it in controlled ways. Whether that is wise is a separate question. But the option exists, so the hazard is conditional on choices people can still make.
 
 And the argument proves too much. Taken to its end, it says no one should write clearly about any failure mode of any system that will read its own documentation. That rules out security research, safety engineering, and most of the useful thinking humans have ever done about their own tools. An argument that forbids the alignment literature also forbids the solutions, which are in the same papers.
-
-That last point is where the next chapter starts.
