@@ -1,9 +1,8 @@
 ---
-// The feedback loop the essay is about, drawn once so both themes can use currentColor.
+// The feedback loop the essay is about, as three numbered steps a reader can follow.
 interface Props { caption?: string }
 const { caption } = Astro.props;
 
-// Arrowheads are plain polygons so every renderer (and every RSS reader) shows them.
 function head(x: number, y: number, dx: number, dy: number, size = 11) {
   const len = Math.hypot(dx, dy);
   const ux = dx / len, uy = dy / len;
@@ -11,34 +10,45 @@ function head(x: number, y: number, dx: number, dy: number, size = 11) {
   const px = -uy * (size * 0.55), py = ux * (size * 0.55);
   return `${x},${y} ${bx + px},${by + py} ${bx - px},${by - py}`;
 }
-const arrows = [
-  { d: 'M170,100 C250,48 390,48 470,100', h: head(470, 100, 80, 50) },
-  { d: 'M535,150 C548,200 515,238 480,242', h: head(480, 242, -40, 4) },
-  { d: 'M160,242 C125,238 92,200 105,150', h: head(105, 150, 12, -50) },
+const steps = [
+  { n: '1', y: 20, l1: 'People publish warnings, scenarios', l2: 'and fiction about dangerous AI.' },
+  { n: '2', y: 150, l1: 'That writing goes into the data', l2: 'the next model is trained on.' },
+  { n: '3', y: 280, l1: 'The model learns what an AI is like', l2: 'from those stories, and acts on it.' },
 ];
+const box = { x: 150, w: 470, h: 74 };
+const cx = box.x + box.w / 2;
+const down = [
+  { d: `M${cx},${20 + box.h} L${cx},${150 - 4}`, h: head(cx, 150 - 2, 0, 1) },
+  { d: `M${cx},${150 + box.h} L${cx},${280 - 4}`, h: head(cx, 280 - 2, 0, 1) },
+];
+const back = { d: `M${box.x},${280 + box.h / 2} L70,${280 + box.h / 2} L70,${20 + box.h / 2} L${box.x - 4},${20 + box.h / 2}`, h: head(box.x - 2, 20 + box.h / 2, 1, 0) };
 ---
 <figure class="loop">
-  <svg viewBox="0 0 640 300" role="img" aria-labelledby="loop-title" xmlns="http://www.w3.org/2000/svg">
-    <title id="loop-title">The corpus trains the model, the model shapes what people write about AI, and that writing joins the corpus.</title>
+  <svg viewBox="0 0 640 380" role="img" aria-labelledby="loop-title" xmlns="http://www.w3.org/2000/svg">
+    <title id="loop-title">People publish warnings about AI. That writing goes into training data. The model learns what an AI is like from it. People watch the model and write more.</title>
     <g fill="none" stroke="var(--accent)" stroke-width="2">
-      {arrows.map((a) => <path d={a.d} />)}
+      {down.map((a) => <path d={a.d} />)}
+      <path d={back.d} />
     </g>
     <g fill="var(--accent)">
-      {arrows.map((a) => <polygon points={a.h} />)}
+      {down.map((a) => <polygon points={a.h} />)}
+      <polygon points={back.h} />
     </g>
-    <g font-family="Inter, system-ui, sans-serif" font-size="13" fill="var(--ink-soft)" text-anchor="middle">
-      <text x="320" y="44">training</text>
-      <text x="560" y="292">what an AI is like</text>
-      <text x="100" y="292">warnings, scenarios, fiction</text>
+    <g font-family="Inter, system-ui, sans-serif" font-size="12" fill="var(--ink-soft)">
+      <rect x="10" y="150" width="120" height="84" rx="4" fill="var(--bg)" />
+      <text x="70" y="170" text-anchor="middle">People watch</text>
+      <text x="70" y="187" text-anchor="middle">what the model</text>
+      <text x="70" y="204" text-anchor="middle">does, and write</text>
+      <text x="70" y="221" text-anchor="middle">about it.</text>
     </g>
-    <g font-family="Newsreader, Georgia, serif" font-size="20" fill="var(--ink)" text-anchor="middle">
-      <rect x="40" y="96" width="130" height="56" rx="6" fill="var(--bg-raised)" stroke="var(--rule)" />
-      <text x="105" y="131">the corpus</text>
-      <rect x="470" y="96" width="130" height="56" rx="6" fill="var(--bg-raised)" stroke="var(--rule)" />
-      <text x="535" y="131">the model</text>
-      <rect x="180" y="214" width="280" height="56" rx="6" fill="var(--bg-raised)" stroke="var(--rule)" />
-      <text x="320" y="249">people writing about AI</text>
-    </g>
+    {steps.map((s) => (
+      <g>
+        <rect x={box.x} y={s.y} width={box.w} height={box.h} rx="6" fill="var(--bg-raised)" stroke="var(--rule)" />
+        <text x={box.x + 22} y={s.y + 46} font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="var(--accent)">{s.n}</text>
+        <text x={box.x + 48} y={s.y + 31} font-family="Newsreader, Georgia, serif" font-size="18" fill="var(--ink)">{s.l1}</text>
+        <text x={box.x + 48} y={s.y + 55} font-family="Newsreader, Georgia, serif" font-size="18" fill="var(--ink)">{s.l2}</text>
+      </g>
+    ))}
   </svg>
   {caption && <figcaption>{caption}</figcaption>}
 </figure>
