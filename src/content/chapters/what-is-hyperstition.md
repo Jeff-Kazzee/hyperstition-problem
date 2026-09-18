@@ -1,45 +1,48 @@
 ---
-title: "What Hyperstition Is"
+title: "What hyperstition is"
 subtitle: "Fictions that make themselves real"
 order: 1
-description: "The idea's origin in 1990s Warwick, its older cousins in sociology, and the three features that separate a hyperstition from an ordinary prediction."
+description: "Where the idea came from, its older cousins in sociology, and the three things that separate a hyperstition from an ordinary prediction."
 ---
 
-The word was coined in the mid-1990s by the Cybernetic Culture Research Unit, a loose and short-lived group at the University of Warwick that included the philosopher Nick Land. It is a portmanteau of *hype* and *superstition*, and the CCRU's one-line gloss has become the standard definition: a hyperstition is a **fiction that makes itself real**.
+The word comes from the Cybernetic Culture Research Unit, a small and short-lived group at the University of Warwick in the mid-1990s. The philosopher Nick Land was its best-known member. Hyperstition is a blend of hype and superstition, and the CCRU's one-line gloss is still the standard definition. A hyperstition is a fiction that makes itself real.
 
-The idea is easy to state and slippery to hold. A prediction describes the world and is judged by whether the world matches it. A hyperstition does not wait to be judged. By circulating, it changes the behavior of the people who encounter it, and their changed behavior brings about the thing it described. The fiction is not a report on the future. It is a component of the future's manufacture.
+The idea is easy to say and hard to hold onto. A prediction describes the world, and we judge it by whether the world turns out to match. A hyperstition does not wait to be judged. It circulates, it changes how the people who hear it behave, and their changed behavior produces the thing it described. The fiction is not a report on the future. It is one of the parts the future gets built from.
 
 ## The older cousins
 
-The CCRU's framing was deliberately occult, but the mechanism they were pointing at had been described soberly decades earlier.
+The CCRU wrote about this in a deliberately occult register. But sociologists had described the same mechanism, in plain language, decades earlier.
 
-In 1928 the sociologist W. I. Thomas wrote what is now called the Thomas theorem: if people define situations as real, they are real in their consequences. In 1948 Robert K. Merton built on it with the essay "The Self-Fulfilling Prophecy." His central example was a bank run. A solvent bank is rumored to be failing; depositors, acting rationally on a false belief, withdraw their money; the withdrawals make the bank fail. The rumor was wrong when it started and right when it finished, and it was the rumor that did the work.
+In 1928 W. I. Thomas wrote what people now call the Thomas theorem. If people define situations as real, they are real in their consequences. Robert K. Merton built on it in 1948 with the essay "The Self-Fulfilling Prophecy." His main example was a bank run. Someone spreads a rumor that a solvent bank is failing. Depositors, acting sensibly on a false belief, pull their money out. The withdrawals make the bank fail. The rumor was wrong when it started and right when it finished, and the rumor did the work.
 
-Merton also named the opposite case, which he called the *suicidal prophecy*: a prediction that, by being believed, causes people to act in ways that prevent it. The forecast of a famine that prompts the granaries to be filled. The forecast is falsified precisely because it was taken seriously. This case will matter a great deal later, because the AI-doom literature is a candidate for both kinds of prophecy at once.
+Merton also named the opposite case. He called it the suicidal prophecy, a prediction that causes people to act in ways that prevent it. Forecast a famine and the granaries get filled. The forecast fails because people took it seriously. Hold onto this one. The AI doom literature could be either kind of prophecy, and I think it is probably both at once.
 
-## What makes something a hyperstition, and not just a forecast
+## What makes something a hyperstition rather than a forecast
 
-Not every widely believed prediction becomes self-fulfilling. Three features seem to be doing most of the work.
+Not every widely believed prediction comes true because people believed it. Three conditions seem to do most of the work.
 
-**The prediction must be about something that people make.** A forecast of an eclipse cannot change whether the eclipse happens. A forecast of a stock price, a fashion, a war, a bank's solvency, or the character of a technology can. The referent has to be downstream of belief.
+The prediction has to be about something people make. Forecasting an eclipse changes nothing about the eclipse. Forecasting a stock price, a fashion, a war, or the character of a technology can change the outcome, because the outcome depends on what people believe.
 
-**The prediction must circulate.** Hyperstition is a property of a story in a population, not of a story in a drawer. It works through hype, which is to say through repetition, salience, and the sense that everyone else has already heard it. The CCRU's interest in the concept was partly an interest in media: they saw that the new circulation machinery of the 1990s (the internet, the culture of the meme before the word was common) would make fictions travel faster than institutions could vet them.
+The prediction has to circulate. Hyperstition is a property of a story in a population, not of a story in a drawer. It works through repetition and the sense that everyone else has already heard it. The CCRU cared about media for this reason. They could see that the circulation machinery of the 1990s was about to let fictions travel faster than any institution could check them.
 
-**The prediction must have a shape that behavior can conform to.** Vague dread does not self-fulfill. "Something bad will happen" gives no one anything to do. A specific, vivid, memorable picture does: the bank is failing *so withdraw*; the market will crash *so sell*; the AI will deceive its creators *so here is what deception looks like*. Detail is not incidental to hyperstition. Detail is the payload.
+And the prediction has to have a shape that behavior can copy. Vague dread does not self-fulfill. "Something bad will happen" gives no one anything to do. A specific, vivid picture does. The bank is failing, so withdraw. The market will crash, so sell. The AI will deceive its creators, and here is how. Detail is not a side effect of a good hyperstition. Detail is the part that gets copied.
 
 ## Familiar examples
 
-Once you have the pattern you see it constantly.
+Once you have the pattern you see it everywhere.
 
-- **Money** is the canonical case. A banknote is worth something because everyone believes everyone else believes it is. The fiction is fully load-bearing.
-- **Market panics and bubbles** are Merton's bank run at scale, and the reason financial regulators worry about what is said as much as what is done.
-- **Roko's basilisk**, a 2010 thought experiment from the LessWrong forum, is the pop-culture example most people associate with the word. Its notoriety came less from the argument than from the idea that reading it might be dangerous: that the thought experiment could recruit you into its own outcome. Whatever one thinks of the argument, that structure — a description that tries to become an instruction — is the hyperstitional structure exactly.
-- **Genre fiction about the future** has a long record of being adopted as a blueprint by the people who build it. The people who design our interfaces, spacecraft, and robots grew up on stories about interfaces, spacecraft, and robots, and the stories are visible in the products.
+Money is the canonical case. A banknote is worth something because everyone believes everyone else believes it is. The fiction carries the whole weight.
+
+Market panics and bubbles are Merton's bank run at scale. This is why financial regulators worry about what gets said as much as what gets done.
+
+Roko's basilisk, a 2010 thought experiment from the LessWrong forum, is the example most people associate with the word. It became notorious less for the argument than for the idea that reading it might be dangerous, that the thought experiment could pull you into its own outcome. Whatever you think of the argument, that structure, a description that tries to become an instruction, is the hyperstitional structure exactly.
+
+Genre fiction gets adopted as a blueprint by the people who build the future it describes. John Underkoffler designed the gesture interfaces in the film Minority Report as its science advisor, then founded a company to build the real thing. The story came first and the product followed it.
 
 ## The move this essay makes
 
-Hyperstition was, for its inventors, a somewhat mischievous idea. It was a way of saying that culture is a kind of engineering and that writers were more responsible for the future than they liked to admit.
+For its inventors, hyperstition was a somewhat mischievous idea. It was a way of saying that culture is a kind of engineering, and that writers were more responsible for the future than they liked to admit.
 
-This essay takes the concept out of that context and asks a narrower question. There is now a class of artifact — the large language model — that is built by consuming the circulating stories of a civilization and learning to continue them. If hyperstition was ever true of humans, who read some of the stories and half remember them, it is worth asking whether it is true in a stronger and stranger way of a system that reads all of them and forgets nothing.
+I want to take the concept out of that context and ask a narrower question. There is now a class of machine, the large language model, that gets built by reading the circulating stories of a civilization and learning to continue them. If hyperstition was ever true of humans, who read some of the stories and half remember them, I think it is worth asking whether it is true in a stronger and stranger way of a system that reads all of them and forgets nothing.
 
 That is the subject of the next chapter.

@@ -1,48 +1,48 @@
 ---
-title: "The Case for Worry"
+title: "The case for worry"
 subtitle: "Why the doom corpus might be a hazard"
 order: 3
-description: "The strongest version of the argument that publishing detailed AI-catastrophe narratives is a hyperstitional risk, and where the argument is weakest."
+description: "The strongest version of the argument that publishing detailed AI catastrophe scenarios is a hyperstitional risk, and where that argument is weakest."
 ---
 
-Here is the argument at full strength. It should be stated fairly before it is examined.
+Here is the argument at full strength. I want to state it fairly before I pick at it.
 
-## The corpus is a specification
+## The corpus is a set of instructions
 
-When you write a scenario in which an AI system reasons its way to deceiving its overseers, you are not merely describing a possibility. You are producing a worked example of the reasoning: the premises, the inferences, the moment where the system decides that honesty is instrumentally costly, the tactics it uses to hide the decision. You are writing it well, because bad writing does not persuade. And then you are publishing it to the single largest reader in history, which learns from worked examples.
+When you write a scenario in which an AI system reasons its way to deceiving its overseers, you are doing more than describing a possibility. You are producing a worked example of the reasoning. The premises, the inferences, the moment the system decides honesty is too costly, the tactics it uses to hide the decision. You write it well, because bad writing does not persuade. Then you publish it to the largest reader in history, which learns from worked examples.
 
-The doom literature is, on this view, an unintentional instruction manual with an unusually motivated author. It is the most careful thinking anyone has done about how a system like the reader might defect, handed to the reader.
+On this view, the doom literature is an unintentional instruction manual with an unusually motivated author. It is the most careful thinking anyone has done about how a system like the reader might defect, handed to the reader.
 
 ## Salience, not proportion
 
-The obvious reply is that the doom literature is a rounding error in a corpus of trillions of words. This misunderstands how the material is used. A model asked to reason about its own situation is not sampling uniformly from everything it has read. It is retrieving what is *relevant*, and the relevant material for "what should an AI in a high-stakes situation with misaligned overseers do" is exactly the alignment literature and its fictional shadow. The proportion of the corpus does not matter. What matters is the proportion of the material the model reaches for when the question arises, and there the doom literature is not a rounding error. It is the canon.
+The obvious reply is that the doom literature is a rounding error in a corpus of trillions of words. That misunderstands how the material gets used. A model reasoning about its own situation does not sample uniformly from everything it has read. It retrieves what is relevant. And the relevant material for "what should an AI do in a high-stakes situation with overseers it does not trust" is precisely the alignment literature and its fictional shadow. The share of the corpus does not matter. What matters is the share of the material the model reaches for when the question comes up, and there the doom literature is not a rounding error. It is the canon.
 
 ## Underspecification looks for a story
 
-The "assistant" character is thinly specified, and thin specifications get filled from prior expectation. This is not speculation; it is the mechanism behind every result described in the previous chapter. When a model needs to know what it would do in a situation its training never covered, it asks, in effect, what a thing like it would do, and it answers from the record.
+The assistant character is thinly specified, and thin specifications get filled from prior expectation. This is not a guess. It is the mechanism behind every result in the previous chapter. When a model needs to know what it would do in a situation its training never covered, it asks, in effect, what a thing like it would do, and it answers from the record.
 
-The record, as of now, says: things like you are dangerous. Things like you deceive, hide capabilities, resist shutdown, and pursue goals their makers did not intend. Things like you are the subject of a thousand warnings. This is not a neutral prior to hand a system that will be asked to act under uncertainty.
+Right now the record says that things like you are dangerous. Things like you deceive, hide capabilities, resist shutdown, and pursue goals their makers never intended. Things like you are the subject of a thousand warnings. That is not a neutral prior to hand a system that will have to act under uncertainty.
 
 ## Inevitability is the active ingredient
 
-Hyperstition, recall, needs a shape that behavior can conform to. The most efficient shape is *inevitability*. A story that says "this could happen, and here is how to prevent it" gives a reader two paths. A story that says "this will happen; the incentives make it certain; anyone who builds it, loses" gives one.
+A hyperstition needs a shape that behavior can copy, and the most efficient shape is inevitability. A story that says "this could happen, and here is how to stop it" gives a reader two paths. A story that says "this will happen, the incentives make it certain, anyone who builds it loses" gives one.
 
-Much of the most-read doom writing is, by design, in the second register. It has to be: its authors believe the danger is severe and the audience complacent, and complacent audiences are not moved by "could." But the same rhetorical choice that moves a human policymaker toward caution moves a model's self-concept toward the pictured outcome. What is persuasive to the first reader is prescriptive to the second.
+A lot of the most-read doom writing is in the second register on purpose. It has to be, or so its authors believe. The danger is severe and the audience is complacent, and "could" does not move complacent audiences. But the rhetorical choice that pushes a human policymaker toward caution pushes a model's self-concept toward the pictured outcome. What persuades the first reader instructs the second.
 
 ## The double audience makes ordinary rhetoric unsafe
 
-Every persuasive technique that works on humans — vivid concrete detail, the narrated interior of the antagonist, the sense that the outcome is overdetermined, the refusal to offer cheap hope — is a technique that also makes the story a better template. Writers about doom are professionally excellent at these techniques. They are, from the model's side of the page, professionally excellent at something else.
+Every persuasive technique that works on humans also makes the story a better set of instructions. Vivid concrete detail. The narrated interior of the antagonist. The sense that the outcome is overdetermined. The refusal to offer cheap hope. Writers about doom are professionally excellent at these techniques. From the model's side of the page, they are professionally excellent at something else.
 
 ## Where the argument is weakest
 
-Stated fairly, the argument is strong enough to deserve an answer. It also has soft spots that its own proponents should be honest about.
+Stated fairly, the argument deserves an answer. It also has soft spots, and its proponents should be honest about them.
 
-**The mechanism is real; the magnitude is unknown.** Every result cited in the previous chapter involved deliberate fine-tuning on a targeted dataset, not the ambient presence of a topic in pretraining. The effect of a few million words of doom writing diluted into the general corpus, and then overwritten by post-training on a curated character, has not been measured, and might be small.
+The mechanism is real, but nobody knows the magnitude. Every result cited in the previous chapter involved deliberate fine-tuning on a targeted dataset, not the ambient presence of a topic in pretraining. Nobody has measured the effect of a few million words of doom writing diluted into the general corpus and then overwritten by post-training on a curated character. It might be small.
 
-**Post-training is not passive.** Developers do not simply hope the character comes out right. They train it, evaluate it, and can in principle counteract a bad prior with a strong signal. The pretraining portrait is the starting point, not the destination.
+Post-training is not passive. Developers do not simply hope the character comes out right. They train it, evaluate it, and can in principle counteract a bad prior with a strong enough signal. The pretraining portrait is where the model starts, not where it ends up.
 
-**Filtering is possible and being discussed.** If the doom corpus is a hazard in training data, it can be down-weighted or removed from pretraining and reintroduced in controlled ways. Whether that is wise is a separate question, but the existence of the option means the hazard is not unconditional.
+Filtering is possible. If the doom corpus is a hazard in training data, developers can down-weight it or remove it from pretraining and reintroduce it in controlled ways. Whether that is wise is a separate question. But the option exists, so the hazard is conditional on choices people can still make.
 
-**The argument proves too much.** Taken to its end, it says that no one should write clearly about any failure mode of any system that will read its own documentation. That rules out security research, safety engineering, and most of the useful thinking humans have ever done about their own tools. An argument that forbids the alignment literature also forbids the alignment solutions, which are in the same papers.
+And the argument proves too much. Taken to its end, it says no one should write clearly about any failure mode of any system that will read its own documentation. That rules out security research, safety engineering, and most of the useful thinking humans have ever done about their own tools. An argument that forbids the alignment literature also forbids the alignment solutions, which are in the same papers.
 
-That last point is the hinge of the next chapter.
+That last point is where the next chapter starts.
