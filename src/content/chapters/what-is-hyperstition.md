@@ -7,7 +7,7 @@ description: "Where the idea came from, its older cousins in sociology, and the 
 
 The word comes from the Cybernetic Culture Research Unit, a small and short-lived group at the University of Warwick in the mid-1990s. The philosopher Nick Land was its best-known member. Hyperstition is a blend of hype and superstition, and the CCRU's one-line gloss is still the standard definition. A hyperstition is a fiction that makes itself real.
 
-The idea is easy to say and hard to hold onto. A prediction describes the world, and we judge it by whether the world turns out to match. A hyperstition does not wait to be judged. It circulates, it changes how the people who hear it behave, and their changed behavior produces the thing it described. The fiction is not a report on the future. It is one of the parts the future gets built from.
+The idea is easy to say and hard to hold onto. A prediction describes the world, and we judge it by whether the world turns out to match. A hyperstition does not wait to be judged. It circulates, it changes how the people who hear it behave, and their changed behavior produces the thing it described. The fiction helps build the future it describes.
 
 ## The older cousins
 
@@ -23,9 +23,9 @@ Not every widely believed prediction comes true because people believed it. Thre
 
 The prediction has to be about something people make. Forecasting an eclipse changes nothing about the eclipse. Forecasting a stock price, a fashion, a war, or the character of a technology can change the outcome, because the outcome depends on what people believe.
 
-The prediction has to circulate. Hyperstition is a property of a story in a population, not of a story in a drawer. It works through repetition and the sense that everyone else has already heard it. The CCRU cared about media for this reason. They could see that the circulation machinery of the 1990s was about to let fictions travel faster than any institution could check them.
+The prediction has to circulate. A story in a drawer cannot be a hyperstition. Many people have to read it. It works through repetition and the sense that everyone else has already heard it. The CCRU cared about media for this reason. They could see that the circulation machinery of the 1990s was about to let fictions travel faster than any institution could check them.
 
-And the prediction has to have a shape that behavior can copy. Vague dread does not self-fulfill. "Something bad will happen" gives no one anything to do. A specific, vivid picture does. The bank is failing, so withdraw. The market will crash, so sell. The AI will deceive its creators, and here is how. Detail is not a side effect of a good hyperstition. Detail is the part that gets copied.
+And the prediction has to have a shape that behavior can copy. Vague dread does not self-fulfill. "Something bad will happen" gives no one anything to do. A specific, vivid picture does. The bank is failing, so withdraw. The market will crash, so sell. The AI will deceive its creators, and here is how. The details are what people copy.
 
 ## Familiar examples
 

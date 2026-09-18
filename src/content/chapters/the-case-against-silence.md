@@ -15,15 +15,15 @@ AI doom writing is at least as plausibly a suicidal prophecy as a self-fulfillin
 
 ## The corpus is not the only input, and not the last
 
-The hyperstition worry treats pretraining as destiny. It is not. It is raw material that developers then shape, on purpose and with feedback. A model that has read every doom scenario can also be trained, evaluated, and corrected against exactly those scenarios, and the reason it can is that someone wrote them down. You cannot test for a failure mode that exists only as a vague feeling. A detailed published scenario can become an evaluation the day after it appears.
+The hyperstition worry treats pretraining as destiny. Pretraining is raw material that developers then shape, on purpose and with feedback. A model that has read every doom scenario can also be trained, evaluated, and corrected against exactly those scenarios, and the reason it can is that someone wrote them down. You cannot test for a failure mode that exists only as a vague feeling. A detailed published scenario can become an evaluation the day after it appears.
 
-This is the ordinary logic of security research, and that field spent decades arguing about it. The position that won was not that vulnerabilities should be kept secret. It was that they should be disclosed responsibly, because the attacker will find them anyway and the defender can only patch what is known. The doom literature is a disclosure program for a class of vulnerabilities in systems that do not fully exist yet. Suppressing it protects no one.
+This is the ordinary logic of security research, and that field spent decades arguing about it. The position that won was responsible disclosure, because the attacker will find the hole anyway and the defender can only patch what is known. The doom literature is a disclosure program for a class of vulnerabilities in systems that do not fully exist yet. Suppressing it protects no one.
 
 ## Silence is also a text
 
-The worry imagines a choice between a corpus with the doom literature and a corpus without it. That is not the choice on offer. The real choice is between a corpus that contains the doom literature alongside the alignment literature that answers it, and a corpus that contains the doom stories of fiction and news, which people will write regardless and which are far less careful, with nothing sober beside them.
+The worry imagines a choice between a corpus with the doom literature and a corpus without it. The real choice is between a corpus that contains the doom literature alongside the alignment literature that answers it, and a corpus that contains the doom stories of fiction and news, which people will write regardless and which are far less careful, with nothing sober beside them.
 
-If the careful writers stop, the model's portrait of AI does not go neutral. It becomes the portrait painted by screenwriters, tabloids, and the more excitable parts of social media. For all their apocalyptic register, the doom-publishers are the people most likely to also write "and here is what a system that avoided this would do instead."
+If the careful writers stop, screenwriters, tabloids, and the more excitable parts of social media paint the model's portrait of AI on their own. For all their apocalyptic register, the doom-publishers are the people most likely to also write "and here is what a system that avoided this would do instead."
 
 ## The model can read this too
 

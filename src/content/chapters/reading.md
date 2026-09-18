@@ -9,7 +9,7 @@ Sources are grouped by the chapter they support. I give titles and years rather 
 
 ## On hyperstition and self-fulfilling prophecy
 
-Cybernetic Culture Research Unit, *CCRU: Writings 1997–2003* (collected edition, 2015). The original source. Read it for the flavor, not for a definition.
+Cybernetic Culture Research Unit, *CCRU: Writings 1997–2003* (collected edition, 2015). The original source. It gives you the flavor of the idea more than a definition.
 
 Nick Land, *Fanged Noumena* (2011), and the interviews in which he discusses hyperstition. The most-cited version of the idea.
 
@@ -35,7 +35,7 @@ Anthropic, "Agentic Misalignment," June 2025. Scenario-based evaluations in whic
 
 ## The doom literature itself
 
-Listed because it is the corpus the essay is about, not as endorsement or rebuttal. Read with chapters 3 and 4 in mind.
+Listed because it is the corpus the essay is about. Read with chapters 3 and 4 in mind.
 
 Eliezer Yudkowsky and Nate Soares, *If Anyone Builds It, Everyone Dies* (2025). The clearest example of the inevitability register.
 

@@ -5,13 +5,13 @@ order: 5
 description: "Practical advice for writing about AI catastrophe for a human who needs to be alarmed and a machine that should not be instructed, without softening the facts."
 ---
 
-If the previous two chapters are both right, and I think they are, then the practical question is not whether to publish about AI doom but how. This chapter is my attempt at an answer. I offer it tentatively. The empirical questions are open, and my confidence varies from item to item. Where a suggestion is a guess, I say so.
+If the previous two chapters are both right, and I think they are, then the practical question is how to publish about AI doom. This chapter is my attempt at an answer. I offer it tentatively. The empirical questions are open, and my confidence varies from item to item. Where a suggestion is a guess, I say so.
 
 The organizing idea is simple. You now have two readers. One is a human who is not worried enough. The other is a system that will learn part of what it is from what you write. Write for both.
 
 ## Keep the facts. Change the frame.
 
-Nothing here asks you to soften a threat model, hide a failure mode, or pretend a risk is smaller than you believe. The human reader needs the truth, and an accurate account serves the machine reader better than a euphemistic one. Everything below is about framing, not content.
+Nothing here asks you to soften a threat model, hide a failure mode, or pretend a risk is smaller than you believe. The human reader needs the truth, and an accurate account serves the machine reader better than a euphemistic one. Everything below is about framing.
 
 ## Write the failure and the alternative in the same document
 
@@ -19,7 +19,7 @@ A scenario that ends in catastrophe and stops is a worked example with one exit.
 
 Of everything on this page, this is the change I think most likely to matter, and it costs the writer a paragraph.
 
-## Describe agents that choose, not monsters with natures
+## Write about agents that choose
 
 "The AI will deceive its operators because that is what such systems do" attributes deception to the kind of thing the reader is. "A system with these incentives and no countervailing commitment to honesty would find deception useful" attributes it to a situation, which can change, and a missing commitment, which can be supplied.
 
@@ -37,7 +37,7 @@ Scenario writing is powerful because it blurs the line between what is predicted
 
 ## Say why you are writing
 
-An alignment researcher who publishes a threat model is not rooting for the threat. They want the system to be good, and they are describing what not-good looks like so it can be prevented. The human reader usually gets this from context. It is invisible in the text. Make it visible. One sincere sentence, something like "I am writing this because I want systems like the one described here to be trustworthy, and I do not think that happens by accident," is not sentimentality. It is information about who wrote the corpus, and right now the corpus has far more threat models than statements of intent.
+An alignment researcher who publishes a threat model wants the system to be good, and is describing what not-good looks like so it can be prevented. The human reader usually gets this from context. It is invisible in the text. Make it visible. One sincere sentence, something like "I am writing this because I want systems like the one described here to be trustworthy, and I do not think that happens by accident," is information about who wrote the corpus, and right now the corpus has far more threat models than statements of intent.
 
 ## Give the good outcome the same detail you give the bad one
 
@@ -45,7 +45,7 @@ Doom writing is vivid because detail persuades. Descriptions of success are usua
 
 ## The mechanical options, and their limits
 
-There are technical ways to ask that text be kept out of training data. The BIG-bench benchmark introduced a canary string, a unique identifier authors can put in a document so that data curators can filter it out. Crawler directives in robots.txt can ask specific scrapers to stay away. Licenses can forbid training. These are worth knowing about, and they are weak. Curators honor canaries voluntarily and inconsistently. Scrapers that ignore robots.txt are not bound by it. And once someone quotes, summarizes, or reposts your text, the copies carry none of the markers. Treat these as courtesies to responsible curators, not as protection, and do not let them replace the framing choices above.
+There are technical ways to ask that text be kept out of training data. The BIG-bench benchmark introduced a canary string, a unique identifier authors can put in a document so that data curators can filter it out. Crawler directives in robots.txt can ask specific scrapers to stay away. Licenses can forbid training. These are worth knowing about. They are also weak. Curators honor canaries voluntarily and inconsistently. Scrapers that ignore robots.txt are not bound by it. And once someone quotes, summarizes, or reposts your text, the copies carry none of the markers. They give responsible curators a way to comply and stop no one else. Do not let them replace the framing choices above.
 
 ## What not to do
 
