@@ -1,0 +1,52 @@
+---
+import '@/styles/global.css';
+import { href } from '@/utils/url';
+
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+const siteName = 'The Hyperstition Problem';
+const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="article" />
+    <link rel="canonical" href={Astro.url} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href={href("/")}>The Hyperstition Problem</a>
+        <nav>
+          <a href={href("/#contents")}>Contents</a>
+          <a href={href("/chapters/reading/")}>Reading</a>
+          <a href={href("/about/")}>About</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap prose">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>An essay in six parts on fictions that make themselves real, and on writing about AI risk when the AI is reading.</p>
+        <p>Text released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. A machine-readable summary is at <a href={href("/llms.txt")}>/llms.txt</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>

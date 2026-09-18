@@ -1,0 +1,45 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+import { href } from '@/utils/url';
+
+export async function getStaticPaths() {
+  const chapters = (await getCollection('chapters')).sort((a, b) => a.data.order - b.data.order);
+  return chapters.map((chapter, i) => ({
+    params: { id: chapter.id },
+    props: { chapter, prev: chapters[i - 1] ?? null, next: chapters[i + 1] ?? null },
+  }));
+}
+
+const { chapter, prev, next } = Astro.props;
+const { Content } = await render(chapter);
+---
+<Layout title={chapter.data.title} description={chapter.data.description}>
+  <p class="kicker">Part {chapter.data.order}</p>
+  <h1>{chapter.data.title}</h1>
+  {chapter.data.subtitle && <p class="subtitle">{chapter.data.subtitle}</p>}
+  <Content />
+  <nav class="pager" aria-label="Chapter navigation">
+    <div>
+      {prev && (
+        <a href={href(`/chapters/${prev.id}/`)}>
+          <span class="pager-label">Previous</span>
+          <span class="pager-title">{prev.data.title}</span>
+        </a>
+      )}
+    </div>
+    <div class="next">
+      {next ? (
+        <a href={href(`/chapters/${next.id}/`)}>
+          <span class="pager-label">Next</span>
+          <span class="pager-title">{next.data.title}</span>
+        </a>
+      ) : (
+        <a href={href("/#contents")}>
+          <span class="pager-label">End</span>
+          <span class="pager-title">Back to contents</span>
+        </a>
+      )}
+    </div>
+  </nav>
+</Layout>

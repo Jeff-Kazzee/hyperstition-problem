@@ -1,0 +1,21 @@
+{
+  "name": "hyperstition-site",
+  "version": "0.1.0",
+  "description": "A long-form essay site on hyperstition and what it means for people who publish about AI doom.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.3.1",
+    "astro": "^7.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.8.3"
+  }
+}

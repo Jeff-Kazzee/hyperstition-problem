@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+import { href } from '@/utils/url';
+
+const chapters = (await getCollection('chapters')).sort((a, b) => a.data.order - b.data.order);
+---
+<Layout
+  title="The Hyperstition Problem"
+  description="An essay on hyperstition — fictions that make themselves real — and what it means for people whose work is publishing as much as possible about AI doom."
+>
+  <p class="kicker">An essay in six parts</p>
+  <h1>The Hyperstition Problem</h1>
+  <p class="subtitle">On writing about AI doom when the AI is reading.</p>
+
+  <p>
+    There is a community of people whose job, or calling, is to publish as much as they can about how
+    artificial intelligence might go catastrophically wrong. Forecasts, scenarios, threat models, fiction,
+    interviews, podcasts, books. The premise is simple and mostly sound: you cannot fix a problem no one
+    will look at.
+  </p>
+  <p>
+    There is also an old idea, out of a strange corner of 1990s philosophy, that some fictions do not stay
+    fictions. Circulate them widely enough and they recruit the world into making them true. The word for
+    this is <em>hyperstition</em>.
+  </p>
+  <p>
+    And there is a new fact that connects the two: the systems being warned about are built by reading
+    almost everything ever published, including the warnings. Every essay explaining how an AI might
+    deceive, escape, or betray its makers is now part of the material from which AIs learn what an AI is.
+  </p>
+  <p>
+    This site takes that collision seriously without pretending it settles anything. It lays out the idea,
+    the mechanism, the strongest case for worry, the strongest case against silence, and what — if anything
+    — a person who publishes about doom should do differently.
+  </p>
+
+  <h2 id="contents">Contents</h2>
+  <ol class="toc">
+    {chapters.map((c) => (
+      <li>
+        <a href={href(`/chapters/${c.id}/`)}>
+          <span class="toc-num">{String(c.data.order).padStart(2, '0')}</span>
+          <span>
+            <p class="toc-title">{c.data.title}</p>
+            <p class="toc-desc">{c.data.description}</p>
+          </span>
+        </a>
+      </li>
+    ))}
+  </ol>
+</Layout>
