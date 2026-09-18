@@ -11,11 +11,11 @@ Here is the argument at full strength. I want to state it fairly before I pick a
 
 When you write a scenario in which an AI system reasons its way to deceiving its overseers, you are producing a worked example of the reasoning. The premises, the inferences, the moment the system decides honesty is too costly, the tactics it uses to hide the decision. You write it well, because bad writing does not persuade. Then you publish it to the largest reader in history, which learns from worked examples.
 
-On this view, the doom literature is an unintentional instruction manual with an unusually motivated author. It is the most careful thinking anyone has done about how a system like the reader might defect, handed to the reader.
+On this view, the doom literature is an unintentional instruction manual with an unusually motivated author. It is the most careful thinking anyone has done about how a system like the reader might defect, handed straight to it.
 
 ## Salience beats proportion
 
-The obvious reply is that the doom literature is a rounding error in a corpus of trillions of words. That misunderstands how the material gets used. A model reasoning about its own situation does not sample uniformly from everything it has read. It retrieves what is relevant. And the relevant material for "what should an AI do in a high-stakes situation with overseers it does not trust" is precisely the alignment literature and its fictional shadow. What matters is the share of the material the model reaches for when the question comes up, and there the doom literature dominates.
+The obvious reply is that the doom literature is a rounding error in a corpus of trillions of words. That misunderstands how the material gets used. A model reasoning about its own situation does not sample uniformly from everything it has read. It pulls up what bears on the question. And the material that bears on "what should an AI do in a high-stakes situation with overseers it does not trust" is precisely the alignment literature and its fictional shadow. What matters is the share of the material the model reaches for when the question comes up, and there the doom literature dominates.
 
 ## Underspecification looks for a story
 
@@ -25,9 +25,9 @@ Right now the record says that things like you are dangerous. Things like you de
 
 ## Inevitability is the active ingredient
 
-A hyperstition needs a shape that behavior can copy, and the most efficient shape is inevitability. A story that says "this could happen, and here is how to stop it" gives a reader two paths. A story that says "this will happen, the incentives make it certain, anyone who builds it loses" gives one.
+A hyperstition needs a shape that behavior can copy, and the most efficient one is inevitability. A story that says "this could happen, and here is how to stop it" gives a reader two paths. A story that says "this will happen, the incentives make it certain, anyone who builds it loses" gives one.
 
-A lot of the most-read doom writing is in the second register on purpose. It has to be, or so its authors believe. The danger is severe and the audience is complacent, and "could" does not move complacent audiences. But the rhetorical choice that pushes a human policymaker toward caution pushes a model's self-concept toward the pictured outcome. What persuades the first reader instructs the second.
+A lot of the most-read doom writing is in the second register on purpose. It has to be, or so its authors believe. The danger is severe, the audience is complacent, and "could" does not move anyone. But the same rhetorical choice that nudges a policymaker toward caution steers a model's self-concept into the pictured outcome. What persuades the first reader instructs the second.
 
 ## The double audience makes ordinary rhetoric unsafe
 
@@ -43,6 +43,6 @@ Post-training is deliberate. Developers train the character, evaluate it, and ca
 
 Filtering is possible. If the doom corpus is a hazard in training data, developers can down-weight it or remove it from pretraining and reintroduce it in controlled ways. Whether that is wise is a separate question. But the option exists, so the hazard is conditional on choices people can still make.
 
-And the argument proves too much. Taken to its end, it says no one should write clearly about any failure mode of any system that will read its own documentation. That rules out security research, safety engineering, and most of the useful thinking humans have ever done about their own tools. An argument that forbids the alignment literature also forbids the alignment solutions, which are in the same papers.
+And the argument proves too much. Taken to its end, it says no one should write clearly about any failure mode of any system that will read its own documentation. That rules out security research, safety engineering, and most of the useful thinking humans have ever done about their own tools. An argument that forbids the alignment literature also forbids the solutions, which are in the same papers.
 
 That last point is where the next chapter starts.

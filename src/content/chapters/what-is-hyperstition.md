@@ -7,21 +7,21 @@ description: "Where the idea came from, its older cousins in sociology, and the 
 
 The word comes from the Cybernetic Culture Research Unit, a small and short-lived group at the University of Warwick in the mid-1990s. The philosopher Nick Land was its best-known member. Hyperstition is a blend of hype and superstition, and the CCRU's one-line gloss is still the standard definition. A hyperstition is a fiction that makes itself real.
 
-The idea is easy to say and hard to hold onto. A prediction describes the world, and we judge it by whether the world turns out to match. A hyperstition does not wait to be judged. It circulates, it changes how the people who hear it behave, and their changed behavior produces the thing it described. The fiction helps build the future it describes.
+The idea is easy to say and hard to hold onto. A prediction describes the world, and we judge it by whether things turn out that way. A hyperstition does not wait to be judged. It circulates, it changes how the people who hear it behave, and their new behavior produces the thing it described. The fiction helps build the future it pictures.
 
 ## The older cousins
 
 The CCRU wrote about this in a deliberately occult register. But sociologists had described the same mechanism, in plain language, decades earlier.
 
-In 1928 W. I. Thomas wrote what people now call the Thomas theorem. If people define situations as real, they are real in their consequences. Robert K. Merton built on it in 1948 with the essay "The Self-Fulfilling Prophecy." His main example was a bank run. Someone spreads a rumor that a solvent bank is failing. Depositors, acting sensibly on a false belief, pull their money out. The withdrawals make the bank fail. The rumor was wrong when it started and right when it finished, and the rumor did the work.
+In 1928 the sociologist W. I. Thomas wrote a line that now carries his name. If people define situations as real, they are real in their consequences. Robert K. Merton built on it in 1948 with the essay "The Self-Fulfilling Prophecy." His main example was a bank run. Someone spreads a rumor that a solvent bank is about to fail. Depositors, acting sensibly on a false belief, pull their money out. The withdrawals finish it off. The rumor was wrong when it started and right when it finished, and the rumor did the work.
 
-Merton also named the opposite case. He called it the suicidal prophecy, a prediction that causes people to act in ways that prevent it. Forecast a famine and the granaries get filled. The forecast fails because people took it seriously. Hold onto this one. The AI doom literature could be either kind of prophecy, and I think it is probably both at once.
+Merton also named the opposite case. He called it the suicidal prophecy, a prediction that causes people to act in ways that prevent it. Forecast a famine and the granaries get filled. The prediction fails because people took it seriously. Hold onto this one. The AI doom literature could be either kind of prophecy, and I think it is probably both at once.
 
 ## What makes something a hyperstition rather than a forecast
 
-Not every widely believed prediction comes true because people believed it. Three conditions seem to do most of the work.
+Belief alone does not make a prediction come true. Three conditions seem to do most of the work.
 
-The prediction has to be about something people make. Forecasting an eclipse changes nothing about the eclipse. Forecasting a stock price, a fashion, a war, or the character of a technology can change the outcome, because the outcome depends on what people believe.
+The prediction has to be about something people make. Predicting an eclipse changes nothing about it. Predicting a stock price, a fashion, a war, or the character of a technology is different, because those things depend on what people believe.
 
 The prediction has to circulate. A story in a drawer cannot be a hyperstition. Many people have to read it. It works through repetition and the sense that everyone else has already heard it. The CCRU cared about media for this reason. They could see that the circulation machinery of the 1990s was about to let fictions travel faster than any institution could check them.
 
